@@ -4,7 +4,7 @@ this.pay = function () {
     var widget = new cp.CloudPayments();
        widget.pay('auth',
            {
-               publicId: 'test_api_00000000000000000000001', //id из личного кабинета
+               publicId: 'pk_d7d3076588bb7b619d4f72d7b21db',
                description: document.getElementById('input-description').value,
                amount: Number(document.getElementById('input-number').value),
                currency: 'RUB',
