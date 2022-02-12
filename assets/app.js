@@ -1,5 +1,6 @@
 'use strict';
 
+document.getElementById('input-button').onclick = pay;
 this.pay = function () {
     var widget = new cp.CloudPayments();
        widget.pay('auth',
@@ -17,5 +18,3 @@ this.pay = function () {
 document.getElementById('form').onsubmit = function() {
     return false;
 }
-   
-document.getElementById('input-button').onclick = pay;
