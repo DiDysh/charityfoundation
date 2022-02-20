@@ -9,10 +9,6 @@ this.pay = function () {
                amount: Number(document.getElementById('input-amount').value),
                currency: 'RUB',
                email: document.getElementById('input-email').value,
-               data: {
-                   name: document.getElementById('input-name').value,
-                   something: document.getElementById('input-something').value
-               }
            },
        )  
    };
