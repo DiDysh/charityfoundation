@@ -8,7 +8,7 @@ this.pay = function () {
                description: document.getElementById('input-description').value,
                amount: Number(document.getElementById('input-amount').value),
                currency: 'RUB',
-               email: document.getElementById('input-email').value,
+               email: document.getElementById('input-email').value
            },
        )  
    };
