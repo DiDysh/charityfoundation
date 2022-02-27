@@ -9,6 +9,7 @@ this.pay = function () {
                amount: Number(document.getElementById('input-amount').value),
                currency: 'RUB',
                email: document.getElementById('input-email').value,
+                accountId: document.getElementById('input-email').value
            },
        )  
    };
